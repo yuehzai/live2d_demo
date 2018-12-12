@@ -17,12 +17,12 @@
             "default": ["嗨~ 快來逗我玩吧！"]
         },
         "referrer_message": {
-            "localhost": ["歡迎閱讀<span style=\"color:#0099cc;\">『", "』</span>", " - "],
-            "baidu": ["Hello! 來自 百度搜索 的朋友<br>你是搜索 <span style=\"color:#0099cc;\">", "</span> 找到的我嗎？"],
-            "so": ["Hello! 來自 360搜索 的朋友<br>你是搜索 <span style=\"color:#0099cc;\">", "</span> 找到的我嗎？"],
-            "google": ["Hello! 來自 Google搜尋 的朋友<br>歡迎閱讀<span style=\"color:#0099cc;\">『", "』</span>", " - "],
-            "default": ["Hello! 來自 <span style=\"color:#0099cc;\">", "</span> 的朋友"],
-            "none": ["歡迎閱讀<span style=\"color:#0099cc;\">『", "』</span>", " - "]
+            "localhost": ["歡迎閱讀<span style=\"color:#60ccff;\">『", "』</span>", " - "],
+            "baidu": ["Hello! 來自 百度搜索 的朋友<br>你是搜索 <span style=\"color:#60ccff;\">", "</span> 找到的我嗎？"],
+            "so": ["Hello! 來自 360搜索 的朋友<br>你是搜索 <span style=\"color:#60ccff;\">", "</span> 找到的我嗎？"],
+            "google": ["Hello! 來自 Google搜尋 的朋友<br>歡迎閱讀<span style=\"color:#60ccff;\">『", "』</span>", " - "],
+            "default": ["Hello! 來自 <span style=\"color:#60ccff;\">", "</span> 的朋友"],
+            "none": ["歡迎閱讀<span style=\"color:#60ccff;\">『", "』</span>", " - "]
         },
         "referrer_hostname": {
             "example.com": ["示例網站"],
@@ -33,14 +33,14 @@
             "2": ["來自 Potion Maker 的 Tia 醬 ~"]  
         },
         "hitokoto_api_message": {
-            "lwl12.com": ["這句一言來自 <span style=\"color:#0099cc;\">『{source}』</span>", "，是 <span style=\"color:#0099cc;\">{creator}</span> 投稿的", "。"],
-            "fghrsh.net": ["這句一言出處是 <span style=\"color:#0099cc;\">『{source}』</span>，是 <span style=\"color:#0099cc;\">FGHRSH</span> 在 {date} 收藏的！"],
-            "jinrishici.com": ["這句詩詞出自 <span style=\"color:#0099cc;\">《{title}》</span>，是 {dynasty}詩人 {author} 創作的！"],
-            "hitokoto.cn": ["這句一言來自 <span style=\"color:#0099cc;\">『{source}』</span>，是 <span style=\"color:#0099cc;\">{creator}</span> 在 hitokoto.cn 投稿的。"]
+            "lwl12.com": ["這句一言來自 <span style=\"color:#60ccff;\">『{source}』</span>", "，是 <span style=\"color:#60ccff;\">{creator}</span> 投稿的", "。"],
+            "fghrsh.net": ["這句一言出處是 <span style=\"color:#60ccff;\">『{source}』</span>，是 <span style=\"color:#60ccff;\">FGHRSH</span> 在 {date} 收藏的！"],
+            "jinrishici.com": ["這句詩詞出自 <span style=\"color:#60ccff;\">《{title}》</span>，是 {dynasty}詩人 {author} 創作的！"],
+            "hitokoto.cn": ["這句一言來自 <span style=\"color:#60ccff;\">『{source}』</span>，是 <span style=\"color:#60ccff;\">{creator}</span> 在 hitokoto.cn 投稿的。"]
         }
     },
     "mouseover": [
-        { "selector": ".container a[href^='http']", "text": ["要看看 <span style=\"color:#0099cc;\">{text}</span> 嗎？"] },
+        { "selector": ".container a[href^='https']", "text": ["要看看 <span style=\"color:#60ccff;\">{text}</span> 嗎？"] },
         { "selector": ".fui-home", "text": ["點擊前往首頁，想回到上一頁可以使用瀏覽器的後退功能哦"] },
         { "selector": ".fui-chat", "text": ["一言一語，一顰一笑。一字一句，一顆賽艇。"] },
         { "selector": ".fui-eye", "text": ["嗯... 要切換 看板娘 嗎？"] },
@@ -66,11 +66,11 @@
         { "selector": ".next", "text": ["去下一頁看看吧"] },
         { "selector": ".dropdown-toggle", "text": ["這裡是菜單"] },
         { "selector": "c-player a.play-icon", "text": ["想要聽點音樂嗎"] },
-        { "selector": "c-player div.time", "text": ["在這裡可以調整<span style=\"color:#0099cc;\">播放進度</span>呢"] },
-        { "selector": "c-player div.volume", "text": ["在這裡可以調整<span style=\"color:#0099cc;\">音量</span>呢"] },
-        { "selector": "c-player div.list-button", "text": ["<span style=\"color:#0099cc;\">播放列表</span>裡都有什麼呢"] },
-        { "selector": "c-player div.lyric-button", "text": ["有<span style=\"color:#0099cc;\">歌詞</span>的話就能跟著一起唱呢"] },
-        { "selector": ".waifu #live2d", "text": ["幹嘛呢你，快把手拿開", "滑...滑鼠放錯地方了！", "警察叔叔，就是他！"] }
+        { "selector": "c-player div.time", "text": ["在這裡可以調整<span style=\"color:#60ccff;\">播放進度</span>呢"] },
+        { "selector": "c-player div.volume", "text": ["在這裡可以調整<span style=\"color:#60ccff;\">音量</span>呢"] },
+        { "selector": "c-player div.list-button", "text": ["<span style=\"color:#60ccff;\">播放列表</span>裡都有什麼呢"] },
+        { "selector": "c-player div.lyric-button", "text": ["有<span style=\"color:#60ccff;\">歌詞</span>的話就能跟著一起唱呢"] },
+        { "selector": ".waifu #live2d", "text": ["幹嘛呢你，快把手拿開！", "滑...滑鼠放錯地方了...", "警察叔叔，就是他！"] }
     ],
     "click": [
         {
@@ -88,18 +88,17 @@
         }
     ],
     "seasons": [
-        { "date": "01/01", "text": ["<span style=\"color:#0099cc;\">元旦</span>了呢，新的一年又開始了，今年是{year}年~"] },
-        { "date": "02/14", "text": ["又是一年<span style=\"color:#0099cc;\">情人節</span>，{year}年找到對象了嘛~"] },
-        { "date": "03/08", "text": ["今天是<span style=\"color:#0099cc;\">婦女節</span>！"] },
-        { "date": "03/12", "text": ["今天是<span style=\"color:#0099cc;\">植樹節</span>，要保護環境呀"] },
+        { "date": "01/01", "text": ["<span style=\"color:#60ccff;\">元旦</span>了呢，新的一年又開始了，今年是{year}年~"] },
+        { "date": "02/14", "text": ["又是一年<span style=\"color:#60ccff;\">情人節</span>，{year}年找到對象了嘛~"] },
+        { "date": "03/08", "text": ["今天是<span style=\"color:#60ccff;\">婦女節</span>！"] },
+        { "date": "03/12", "text": ["今天是<span style=\"color:#60ccff;\">植樹節</span>，要保護環境呀"] },
         { "date": "04/01", "text": ["悄悄告訴你一個秘密~<span style=\"background-color:#34495e;\">今天是愚人節，不要被騙了哦~</span>"] },
-        { "date": "05/01", "text": ["今天是<span style=\"color:#0099cc;\">五一勞動節</span>，計劃好假期去哪裡了嗎~"] },
-        { "date": "04/04", "text": ["<span style=\"color:#0099cc;\">兒童節</span>了呢，快活的時光總是短暫，要是永遠長不大該多好啊…"] },
-        { "date": "09/03", "text": ["<span style=\"color:#0099cc;\">中國人民抗日戰爭勝利紀念日</span>，銘記歷史、緬懷先烈、珍愛和平、開創未來。"] },
-        { "date": "09/28", "text": ["<span style=\"color:#0099cc;\">教師節</span>，在學校要給老師問聲好呀~"] },
-        { "date": "10/10", "text": ["今天是<span style=\"color:#0099cc;\">國慶日</span>！"] },
-        { "date": "11/05-11/12", "text": ["今年的<span style=\"color:#0099cc;\">雙十一</span>是和誰一起過的呢~"] },
-        { "date": "12/08", "text": ["今天是<span style=\"color:#0099cc;\">12月8日</span>！"] },
-        { "date": "12/20-12/31", "text": ["這幾天是<span style=\"color:#0099cc;\">聖誕節</span>，主人肯定又去剁手買買買了~"] }
+        { "date": "05/01", "text": ["今天是<span style=\"color:#60ccff;\">五一勞動節</span>，計劃好假期去哪裡了嗎~"] },
+        { "date": "04/04", "text": ["<span style=\"color:#60ccff;\">兒童節</span>了呢，快活的時光總是短暫，要是永遠長不大該多好啊…"] },
+        { "date": "09/03", "text": ["<span style=\"color:#60ccff;\">中國人民抗日戰爭勝利紀念日</span>，銘記歷史、緬懷先烈、珍愛和平、開創未來。"] },
+        { "date": "09/28", "text": ["<span style=\"color:#60ccff;\">教師節</span>，在學校要給老師問聲好呀~"] },
+        { "date": "10/10", "text": ["今天是<span style=\"color:#60ccff;\">國慶日</span>！"] },
+        { "date": "11/05-11/12", "text": ["今年的<span style=\"color:#60ccff;\">雙十一</span>是和誰一起過的呢~"] },
+        { "date": "12/20-12/31", "text": ["這幾天是<span style=\"color:#60ccff;\">聖誕節</span>，主人肯定又去剁手買買買了~"] }
     ]
 }
