@@ -40,7 +40,7 @@
         }
     },
     "mouseover": [
-        { "selector": ".content a[href^='http']", "text": ["要看看 <span style=\"color:#60ccff;\">{text}</span> 嗎？"] },
+        { "selector": "a[href^='http']", "text": ["要看看 <span style=\"color:#60ccff;\">{text}</span> 嗎？"] },
         { "selector": ".fui-home", "text": ["點擊前往首頁，想回到上一頁可以使用瀏覽器的後退功能哦"] },
         { "selector": ".fui-chat", "text": ["一言一語，一顰一笑。一字一句，一顆賽艇。"] },
         { "selector": ".fui-eye", "text": ["嗯... 要切換 看板娘 嗎？"] },
