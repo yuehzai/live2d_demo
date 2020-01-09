@@ -60,7 +60,7 @@
         { "selector": "#textarea", "text": ["認真填寫哦，垃圾評論是禁止事項"] },
         { "selector": ".OwO-logo", "text": ["要插入一個表情嗎"] },
         { "selector": "#csubmit", "text": ["要[提交]^(Commit)了嗎，首次評論需要審核，請耐心等待~"] },
-        { "selector": ".ImageBox", "text": ["點擊圖片可以放大喔"] },
+        { "selector": ".separator", "text": ["點擊圖片可以放大喔"] },
         { "selector": "input[name=s]", "text": ["找不到想看的內容？搜尋看看吧"] },
         { "selector": ".previous", "text": ["去上一頁看看吧"] },
         { "selector": ".next", "text": ["去下一頁看看吧"] },
